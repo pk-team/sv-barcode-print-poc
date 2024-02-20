@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import Error from '$lib/components/Error.svelte';
 	import KitBarcodeSet from '$lib/components/LotBarcode/KitBarcodeSet.svelte';
 	import { lots } from '$lib/data';
 
@@ -10,5 +11,5 @@
 {#if kit}
     <KitBarcodeSet {kit} />
 {:else}
-    <div>not found</div>
+    <Error>Kit {$page.params.kitNo} Not Found</Error>
 {/if}

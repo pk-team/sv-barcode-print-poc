@@ -16,11 +16,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 5px;
+        gap: 0.25rem;
         font-family: monospace;
         font-weight: bold;
+        padding: 1rem;
         border: 1px solid #000;
-        border-radius: 5px;
     }
 
     .title {

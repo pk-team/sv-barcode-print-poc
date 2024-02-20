@@ -1,39 +1,39 @@
 export let lots = [
     {
-        lotNo: 'BPA3A27240430001', pcv: 'BPA3A27', model: 'Everest',
+        lotNo: 'BPA3A2724043001', pcv: 'BPA3A27', model: 'Everest',
         kits: [
             {
-                kitNo: 'BPA3A27240430001',
+                kitNo: 'BPA3A272404300101',
                 pcv: 'BPA3A27',
                 vin: 'MS5AKNF60RM000529',
                 model: 'Everest'
             },
             {
-                kitNo: 'BPA3A27240430002',
+                kitNo: 'BPA3A272404300102',
                 pcv: 'BPA3A27',
                 vin: 'MS5AKNF60RM000523',
                 model: 'Everest'
             },
             {
-                kitNo: 'BPA3A27240430003',
+                kitNo: 'BPA3A272404300103',
                 pcv: 'BPA3A27',
                 vin: 'MS5AKNF60RM000598',
                 model: 'Everest'
             },
             {
-                kitNo: 'BPA3A27240430004',
+                kitNo: 'BPA3A272404300104',
                 pcv: 'BPA3A27',
                 vin: 'MS5AKNF60RM000544',
                 model: 'Everest'
             },
             {
-                kitNo: 'BPA3A27240430005',
+                kitNo: 'BPA3A272404300105',
                 pcv: 'BPA3A27',
                 vin: 'MS5AKNF60RM000593',
                 model: 'Everest'
             },
             {
-                kitNo: 'BPA3A27240430006',
+                kitNo: 'BPA3A272404300106',
                 pcv: 'BPA3A27',
                 vin: 'MS5AKNF60RM000511',
                 model: 'Everest'
