@@ -5,6 +5,8 @@
     export let kit: KitBarcode
 </script>
 
-<BarcodeLabel title={`PCV ${kit.model}`} text={kit.pcv} />
-<BarcodeLabel title={`KIT ${kit.model}`} text={kit.kitNo} />
-<BarcodeLabel title={`VIN ${kit.model}`} text={kit.vin} />
+<div class="kit-barcode-set print">
+	<BarcodeLabel title={`PCV ${kit.model}`} text={kit.pcv} />
+	<BarcodeLabel title={`KIT ${kit.model}`} text={kit.kitNo} />
+	<BarcodeLabel title={`VIN ${kit.model}`} text={kit.vin} />
+</div>

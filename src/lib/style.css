@@ -24,11 +24,12 @@ a:hover {
 }
 
 @media print {
-    main, .print {
-        padding: 0;
+    * {
+        padding: 0 !important;
+        margin: 0 !important;
     }
-    
-    body :not(main,  main * .print, main > .print *) {
+
+    :not(.print, .print *, :has(.print)) {
         display: none;
     }
 }

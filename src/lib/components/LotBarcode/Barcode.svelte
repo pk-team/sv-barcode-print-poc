@@ -33,9 +33,3 @@
 </script>
 
 <canvas bind:this={canvasElement} {style}></canvas>
-
-<style>
-  canvas {
-    /* Add your styling here */
-  }
-</style>
