@@ -28,7 +28,7 @@ a:hover {
         padding: 0;
     }
     
-    body :not(main, .print, main .print *) {
+    body :not(main,  main * .print, main > .print *) {
         display: none;
     }
 }
